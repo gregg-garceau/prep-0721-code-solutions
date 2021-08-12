@@ -43,4 +43,12 @@ function subtractTwoNumber(num1, num2) {
 }
 
 var difference = subtractTwoNumber(22, 7);
-console.log('')
+console.log('Difference: ' + difference);
+
+
+function getCircleCircumference(radius) {
+  return 2 * Math.PI * radius;
+}
+
+var circumference = getCircleCircumference(5);
+console.log('Circumference: ' + circumference);
