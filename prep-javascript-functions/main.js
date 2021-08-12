@@ -60,3 +60,11 @@ function getFullName(firstName, lastName) {
 
 var fullName = getFullName("Juan", "Ramirez");
 console.log(fullName);
+
+
+function cube(number) {
+  return number * number * number;
+}
+
+var cubeResult = cube(5);
+console.log('Result: ' + cubeResult);
