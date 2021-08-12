@@ -27,4 +27,12 @@ function addAndMultiplyBy5(num1, num2) {
 }
 
 var totalSum = addAndMultiplyBy5(10, 5);
-console.log('Total sum: ' + totalSum);
+console.log('Sum: ' + totalSum);
+
+
+function multiplyAndDivideBy5(num1, num2) {
+  return (num1 * num2) / 5;
+}
+
+var finalSum = multiplyAndDivideBy5(35, 10);
+console.log('Sum: ' + finalSum);
