@@ -26,13 +26,21 @@ function addAndMultiplyBy5(num1, num2) {
   return (num1 + num2) * 5;
 }
 
-var totalSum = addAndMultiplyBy5(10, 5);
-console.log('Sum: ' + totalSum);
+var product = addAndMultiplyBy5(10, 5);
+console.log('Product: ' + product);
 
 
 function multiplyAndDivideBy5(num1, num2) {
   return (num1 * num2) / 5;
 }
 
-var finalSum = multiplyAndDivideBy5(35, 10);
-console.log('Sum: ' + finalSum);
+var quotient = multiplyAndDivideBy5(35, 10);
+console.log('Quotient: ' + quotient);
+
+
+function subtractTwoNumber(num1, num2) {
+  return num1 - num2;
+}
+
+var difference = subtractTwoNumber(22, 7);
+console.log('')
